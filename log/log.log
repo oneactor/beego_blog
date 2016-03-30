@@ -1,0 +1,238 @@
+2016/03/20 14:06:28 [router.go:829][D] | GET        | /                                        | 64.358994ms      | match      | /                                        | 
+2016/03/20 14:06:39 [router.go:829][D] | GET        | /                                        | 4.533689ms       | match      | /                                        | 
+2016/03/20 14:06:39 [router.go:829][D] | GET        | /category                                | 686.43µs         | match      | /category                                | 
+2016/03/20 14:06:39 [router.go:829][D] | GET        | /test                                    | 1.230942ms       | match      | /test                                    | 
+2016/03/20 14:06:41 [router.go:829][D] | GET        | /test                                    | 557.94µs         | match      | /test                                    | 
+2016/03/20 14:06:42 [router.go:829][D] | GET        | /test                                    | 382.307µs        | match      | /test                                    | 
+2016/03/20 14:06:43 [router.go:829][D] | GET        | /test                                    | 261.076µs        | match      | /test                                    | 
+2016/03/20 14:06:43 [router.go:829][D] | GET        | /test                                    | 255.253µs        | match      | /test                                    | 
+2016/03/20 14:06:44 [router.go:829][D] | GET        | /                                        | 1.886792ms       | match      | /                                        | 
+2016/03/20 14:06:44 [router.go:829][D] | GET        | /test                                    | 337.404µs        | match      | /test                                    | 
+2016/03/20 14:06:44 [router.go:829][D] | GET        | /category                                | 241.512µs        | match      | /category                                | 
+2016/03/20 14:06:54 [router.go:829][D] | GET        | /test                                    | 302.135µs        | match      | /test                                    | 
+2016/03/20 14:07:03 [router.go:829][D] | GET        | /test                                    | 264.502µs        | match      | /test                                    | 
+2016/03/20 14:07:49 [router.go:829][D] | GET        | /                                        | 1.116052ms       | match      | /                                        | 
+2016/03/20 14:07:49 [router.go:829][D] | GET        | /test                                    | 414.789µs        | match      | /test                                    | 
+2016/03/20 14:07:49 [router.go:829][D] | GET        | /category                                | 312.239µs        | match      | /category                                | 
+2016/03/20 14:09:00 [router.go:829][D] | GET        | /                                        | 1.136737ms       | match      | /                                        | 
+2016/03/20 14:09:00 [router.go:829][D] | GET        | /test                                    | 325.391µs        | match      | /test                                    | 
+2016/03/20 14:09:00 [router.go:829][D] | GET        | /category                                | 295.199µs        | match      | /category                                | 
+2016/03/20 14:10:00 [router.go:829][D] | GET        | /                                        | 1.986218ms       | match      | /                                        | 
+2016/03/20 14:10:14 [router.go:829][D] | GET        | /                                        | 9.791063ms       | match      | /                                        | 
+2016/03/20 14:10:15 [router.go:829][D] | GET        | /test                                    | 489.685µs        | match      | /test                                    | 
+2016/03/20 14:10:15 [router.go:829][D] | GET        | /category                                | 314.942µs        | match      | /category                                | 
+2016/03/20 14:10:34 [router.go:829][D] | GET        | /                                        | 1.839176ms       | match      | /                                        | 
+2016/03/20 14:10:34 [router.go:829][D] | GET        | /test                                    | 411.296µs        | match      | /test                                    | 
+2016/03/20 14:10:34 [router.go:829][D] | GET        | /category                                | 285.839µs        | match      | /category                                | 
+2016/03/20 14:16:02 [router.go:829][D] | GET        | /                                        | 1.959141ms       | match      | /                                        | 
+2016/03/20 14:16:03 [router.go:829][D] | GET        | /test                                    | 378.172µs        | match      | /test                                    | 
+2016/03/20 14:16:03 [router.go:829][D] | GET        | /category                                | 293.293µs        | match      | /category                                | 
+2016/03/20 14:18:45 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 14:23:41 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 14:23:47 [router.go:829][D] | GET        | /                                        | 1.639364ms       | match      | /                                        | 
+2016/03/20 14:23:48 [router.go:829][D] | GET        | /test                                    | 941.887µs        | match      | /test                                    | 
+2016/03/20 14:23:48 [router.go:829][D] | GET        | /category                                | 424.183µs        | match      | /category                                | 
+2016/03/20 14:23:48 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/03/20 14:23:54 [router.go:829][D] | GET        | /content                                 | 1.165617ms       | match      | /content                                 | 
+2016/03/20 14:28:20 [router.go:829][D] | GET        | /                                        | 1.234102ms       | match      | /                                        | 
+2016/03/20 14:28:20 [router.go:829][D] | GET        | /test                                    | 517.453µs        | match      | /test                                    | 
+2016/03/20 14:28:20 [router.go:829][D] | GET        | /category                                | 574.916µs        | match      | /category                                | 
+2016/03/20 14:28:47 [router.go:829][D] | GET        | /test                                    | 459.516µs        | match      | /test                                    | 
+2016/03/20 14:28:47 [router.go:829][D] | GET        | /test                                    | 308.608µs        | match      | /test                                    | 
+2016/03/20 14:28:48 [router.go:829][D] | GET        | /test                                    | 588.858µs        | match      | /test                                    | 
+2016/03/20 14:28:48 [router.go:829][D] | GET        | /test                                    | 810.811µs        | match      | /test                                    | 
+2016/03/20 14:28:49 [router.go:829][D] | GET        | /                                        | 2.285638ms       | match      | /                                        | 
+2016/03/20 14:28:49 [router.go:829][D] | GET        | /category                                | 1.167117ms       | match      | /category                                | 
+2016/03/20 14:28:49 [router.go:829][D] | GET        | /test                                    | 1.446851ms       | match      | /test                                    | 
+2016/03/20 14:29:30 [router.go:829][D] | GET        | /test                                    | 311.246µs        | match      | /test                                    | 
+2016/03/20 14:29:31 [router.go:829][D] | GET        | /test                                    | 280.839µs        | match      | /test                                    | 
+2016/03/20 14:29:31 [router.go:829][D] | GET        | /test                                    | 246.313µs        | match      | /test                                    | 
+2016/03/20 14:29:32 [router.go:829][D] | GET        | /test                                    | 323.091µs        | match      | /test                                    | 
+2016/03/20 14:31:22 [router.go:829][D] | GET        | /                                        | 1.605145ms       | match      | /                                        | 
+2016/03/20 14:31:22 [router.go:829][D] | GET        | /test                                    | 410.449µs        | match      | /test                                    | 
+2016/03/20 14:31:22 [router.go:829][D] | GET        | /category                                | 261.548µs        | match      | /category                                | 
+2016/03/20 14:32:30 [router.go:829][D] | GET        | /                                        | 1.333187ms       | match      | /                                        | 
+2016/03/20 14:32:30 [router.go:829][D] | GET        | /test                                    | 352.677µs        | match      | /test                                    | 
+2016/03/20 14:32:30 [router.go:829][D] | GET        | /category                                | 1.219887ms       | match      | /category                                | 
+2016/03/20 14:33:37 [router.go:829][D] | GET        | /                                        | 1.305592ms       | match      | /                                        | 
+2016/03/20 14:33:37 [router.go:829][D] | GET        | /test                                    | 299.906µs        | match      | /test                                    | 
+2016/03/20 14:33:37 [router.go:829][D] | GET        | /category                                | 339.319µs        | match      | /category                                | 
+2016/03/20 14:33:43 [router.go:829][D] | GET        | /                                        | 1.126467ms       | match      | /                                        | 
+2016/03/20 14:33:44 [router.go:829][D] | GET        | /test                                    | 370.75µs         | match      | /test                                    | 
+2016/03/20 14:33:44 [router.go:829][D] | GET        | /category                                | 281.098µs        | match      | /category                                | 
+2016/03/20 14:33:57 [router.go:829][D] | GET        | /test                                    | 276.592µs        | match      | /test                                    | 
+2016/03/20 14:34:00 [router.go:829][D] | GET        | /test                                    | 350.632µs        | match      | /test                                    | 
+2016/03/20 14:34:23 [router.go:829][D] | GET        | /test                                    | 504.283µs        | match      | /test                                    | 
+2016/03/20 14:34:24 [router.go:829][D] | GET        | /test                                    | 283.889µs        | match      | /test                                    | 
+2016/03/20 14:49:50 [router.go:829][D] | GET        | /                                        | 2.880242ms       | match      | /                                        | 
+2016/03/20 14:49:50 [router.go:829][D] | GET        | /test                                    | 403.44µs         | match      | /test                                    | 
+2016/03/20 14:49:50 [router.go:829][D] | GET        | /category                                | 306.151µs        | match      | /category                                | 
+2016/03/20 14:50:49 [router.go:829][D] | GET        | /test                                    | 263.258µs        | match      | /test                                    | 
+2016/03/20 14:50:49 [router.go:829][D] | GET        | /test                                    | 271.285µs        | match      | /test                                    | 
+2016/03/20 14:50:50 [router.go:829][D] | GET        | /test                                    | 336.533µs        | match      | /test                                    | 
+2016/03/20 14:50:50 [router.go:829][D] | GET        | /test                                    | 345.704µs        | match      | /test                                    | 
+2016/03/20 14:50:51 [router.go:829][D] | GET        | /                                        | 1.83314ms        | match      | /                                        | 
+2016/03/20 14:50:51 [router.go:829][D] | GET        | /test                                    | 458.765µs        | match      | /test                                    | 
+2016/03/20 14:50:51 [router.go:829][D] | GET        | /category                                | 249.761µs        | match      | /category                                | 
+2016/03/20 14:52:49 [router.go:829][D] | GET        | /                                        | 1.280775ms       | match      | /                                        | 
+2016/03/20 14:52:49 [router.go:829][D] | GET        | /test                                    | 603.139µs        | match      | /test                                    | 
+2016/03/20 14:52:49 [router.go:829][D] | GET        | /category                                | 761.254µs        | match      | /category                                | 
+2016/03/20 14:53:03 [router.go:829][D] | GET        | /                                        | 1.132875ms       | match      | /                                        | 
+2016/03/20 14:53:03 [router.go:829][D] | GET        | /test                                    | 413.578µs        | match      | /test                                    | 
+2016/03/20 14:53:03 [router.go:829][D] | GET        | /category                                | 359.624µs        | match      | /category                                | 
+2016/03/20 14:53:42 [router.go:829][D] | GET        | /                                        | 1.17101ms        | match      | /                                        | 
+2016/03/20 14:53:42 [router.go:829][D] | GET        | /test                                    | 414.486µs        | match      | /test                                    | 
+2016/03/20 14:53:42 [router.go:829][D] | GET        | /category                                | 312.776µs        | match      | /category                                | 
+2016/03/20 14:53:56 [router.go:829][D] | GET        | /                                        | 2.211102ms       | match      | /                                        | 
+2016/03/20 14:53:56 [router.go:829][D] | GET        | /test                                    | 483.573µs        | match      | /test                                    | 
+2016/03/20 14:53:56 [router.go:829][D] | GET        | /category                                | 275.702µs        | match      | /category                                | 
+2016/03/20 14:54:06 [router.go:829][D] | GET        | /                                        | 1.250577ms       | match      | /                                        | 
+2016/03/20 14:54:06 [router.go:829][D] | GET        | /test                                    | 315.342µs        | match      | /test                                    | 
+2016/03/20 14:54:06 [router.go:829][D] | GET        | /category                                | 281.077µs        | match      | /category                                | 
+2016/03/20 14:54:18 [router.go:829][D] | GET        | /                                        | 1.578664ms       | match      | /                                        | 
+2016/03/20 14:54:18 [router.go:829][D] | GET        | /test                                    | 561.192µs        | match      | /test                                    | 
+2016/03/20 14:54:18 [router.go:829][D] | GET        | /category                                | 337.737µs        | match      | /category                                | 
+2016/03/20 14:54:54 [router.go:829][D] | GET        | /                                        | 1.139885ms       | match      | /                                        | 
+2016/03/20 14:54:55 [router.go:829][D] | GET        | /test                                    | 349.805µs        | match      | /test                                    | 
+2016/03/20 14:54:55 [router.go:829][D] | GET        | /category                                | 407.568µs        | match      | /category                                | 
+2016/03/20 14:55:12 [router.go:829][D] | GET        | /                                        | 1.492262ms       | match      | /                                        | 
+2016/03/20 14:55:12 [router.go:829][D] | GET        | /test                                    | 306.272µs        | match      | /test                                    | 
+2016/03/20 14:55:12 [router.go:829][D] | GET        | /category                                | 280.627µs        | match      | /category                                | 
+2016/03/20 14:59:16 [router.go:829][D] | GET        | /                                        | 1.345266ms       | match      | /                                        | 
+2016/03/20 14:59:16 [router.go:829][D] | GET        | /test                                    | 382.612µs        | match      | /test                                    | 
+2016/03/20 14:59:16 [router.go:829][D] | GET        | /category                                | 342.599µs        | match      | /category                                | 
+2016/03/20 15:00:28 [router.go:829][D] | GET        | /                                        | 1.627797ms       | match      | /                                        | 
+2016/03/20 15:00:29 [router.go:829][D] | GET        | /test                                    | 346.005µs        | match      | /test                                    | 
+2016/03/20 15:00:29 [router.go:829][D] | GET        | /category                                | 311.372µs        | match      | /category                                | 
+2016/03/20 15:00:30 [router.go:829][D] | GET        | /test                                    | 257.58µs         | match      | /test                                    | 
+2016/03/20 15:00:39 [router.go:829][D] | GET        | /                                        | 1.204818ms       | match      | /                                        | 
+2016/03/20 15:00:39 [router.go:829][D] | GET        | /test                                    | 291.136µs        | match      | /test                                    | 
+2016/03/20 15:00:39 [router.go:829][D] | GET        | /category                                | 276.377µs        | match      | /category                                | 
+2016/03/20 15:01:02 [router.go:829][D] | GET        | /                                        | 1.498968ms       | match      | /                                        | 
+2016/03/20 15:01:03 [router.go:829][D] | GET        | /test                                    | 700.08µs         | match      | /test                                    | 
+2016/03/20 15:01:03 [router.go:829][D] | GET        | /category                                | 316.251µs        | match      | /category                                | 
+2016/03/20 15:01:07 [router.go:829][D] | GET        | /test                                    | 287.654µs        | match      | /test                                    | 
+2016/03/20 15:01:11 [router.go:829][D] | GET        | /test                                    | 290.451µs        | match      | /test                                    | 
+2016/03/20 15:17:34 [router.go:829][D] | GET        | /                                        | 1.527445ms       | match      | /                                        | 
+2016/03/20 15:17:34 [router.go:829][D] | GET        | /category                                | 410.53µs         | match      | /category                                | 
+2016/03/20 15:17:34 [router.go:829][D] | GET        | /test                                    | 414.877µs        | match      | /test                                    | 
+2016/03/20 15:17:37 [router.go:829][D] | GET        | /                                        | 1.119062ms       | match      | /                                        | 
+2016/03/20 15:17:37 [router.go:829][D] | GET        | /test                                    | 384.714µs        | match      | /test                                    | 
+2016/03/20 15:17:37 [router.go:829][D] | GET        | /category                                | 246.133µs        | match      | /category                                | 
+2016/03/20 15:17:38 [router.go:829][D] | GET        | /test                                    | 335.738µs        | match      | /test                                    | 
+2016/03/20 15:17:39 [router.go:829][D] | GET        | /test                                    | 300.921µs        | match      | /test                                    | 
+2016/03/20 15:17:40 [router.go:829][D] | GET        | /test                                    | 292.544µs        | match      | /test                                    | 
+2016/03/20 15:17:40 [router.go:829][D] | GET        | /test                                    | 390.682µs        | match      | /test                                    | 
+2016/03/20 15:17:41 [router.go:829][D] | GET        | /test                                    | 233.997µs        | match      | /test                                    | 
+2016/03/20 15:17:45 [router.go:829][D] | GET        | /                                        | 1.745337ms       | match      | /                                        | 
+2016/03/20 15:17:45 [router.go:829][D] | GET        | /test                                    | 325.094µs        | match      | /test                                    | 
+2016/03/20 15:17:45 [router.go:829][D] | GET        | /category                                | 238.884µs        | match      | /category                                | 
+2016/03/20 15:17:46 [router.go:829][D] | GET        | /                                        | 2.367718ms       | match      | /                                        | 
+2016/03/20 15:17:46 [router.go:829][D] | GET        | /test                                    | 517.367µs        | match      | /test                                    | 
+2016/03/20 15:17:46 [router.go:829][D] | GET        | /category                                | 285.303µs        | match      | /category                                | 
+2016/03/20 15:18:13 [router.go:829][D] | GET        | /                                        | 1.66643ms        | match      | /                                        | 
+2016/03/20 15:18:13 [router.go:829][D] | GET        | /test                                    | 422.517µs        | match      | /test                                    | 
+2016/03/20 15:18:13 [router.go:829][D] | GET        | /category                                | 249.737µs        | match      | /category                                | 
+2016/03/20 15:18:15 [router.go:829][D] | GET        | /test                                    | 338.165µs        | match      | /test                                    | 
+2016/03/20 15:18:16 [router.go:829][D] | GET        | /test                                    | 235.381µs        | match      | /test                                    | 
+2016/03/20 15:18:17 [router.go:829][D] | GET        | /test                                    | 320µs            | match      | /test                                    | 
+2016/03/20 15:18:17 [router.go:829][D] | GET        | /test                                    | 325.692µs        | match      | /test                                    | 
+2016/03/20 15:18:18 [router.go:829][D] | GET        | /                                        | 1.700604ms       | match      | /                                        | 
+2016/03/20 15:18:18 [router.go:829][D] | GET        | /test                                    | 379.295µs        | match      | /test                                    | 
+2016/03/20 15:18:18 [router.go:829][D] | GET        | /category                                | 258.724µs        | match      | /category                                | 
+2016/03/20 15:18:25 [router.go:829][D] | GET        | /test                                    | 406.792µs        | match      | /test                                    | 
+2016/03/20 15:18:25 [router.go:829][D] | GET        | /test                                    | 316.524µs        | match      | /test                                    | 
+2016/03/20 15:18:26 [router.go:829][D] | GET        | /test                                    | 2.232531ms       | match      | /test                                    | 
+2016/03/20 15:18:26 [router.go:829][D] | GET        | /test                                    | 262.916µs        | match      | /test                                    | 
+2016/03/20 15:23:47 [router.go:829][D] | GET        | /                                        | 1.434541ms       | match      | /                                        | 
+2016/03/20 15:23:47 [router.go:829][D] | GET        | /test                                    | 497.293µs        | match      | /test                                    | 
+2016/03/20 15:23:47 [router.go:829][D] | GET        | /category                                | 399.957µs        | match      | /category                                | 
+2016/03/20 15:23:48 [router.go:829][D] | GET        | /test                                    | 247.42µs         | match      | /test                                    | 
+2016/03/20 15:23:50 [router.go:829][D] | GET        | /test                                    | 302.585µs        | match      | /test                                    | 
+2016/03/20 15:27:59 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:28:03 [router.go:829][D] | GET        | /                                        | 1.74822ms        | match      | /                                        | 
+2016/03/20 15:28:03 [router.go:829][D] | GET        | /category                                | 269.038µs        | match      | /category                                | 
+2016/03/20 15:28:25 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:28:26 [router.go:829][D] | GET        | /                                        | 1.753952ms       | match      | /                                        | 
+2016/03/20 15:28:26 [router.go:829][D] | GET        | /test                                    | 440.491µs        | match      | /test                                    | 
+2016/03/20 15:28:26 [router.go:829][D] | GET        | /category                                | 300.038µs        | match      | /category                                | 
+2016/03/20 15:28:35 [router.go:829][D] | GET        | /test                                    | 297.141µs        | match      | /test                                    | 
+2016/03/20 15:28:35 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:28:35 [router.go:829][D] | GET        | /                                        | 1.687004ms       | match      | /                                        | 
+2016/03/20 15:28:36 [router.go:829][D] | GET        | /category                                | 323.815µs        | match      | /category                                | 
+2016/03/20 15:28:37 [router.go:829][D] | GET        | /                                        | 1.5876ms         | match      | /                                        | 
+2016/03/20 15:28:39 [router.go:829][D] | GET        | /category                                | 278.32µs         | match      | /category                                | 
+2016/03/20 15:28:50 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:29:00 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:29:08 [router.go:829][D] | GET        | /                                        | 2.0029ms         | match      | /                                        | 
+2016/03/20 15:29:08 [router.go:829][D] | GET        | /category                                | 1.03487ms        | match      | /category                                | 
+2016/03/20 15:30:20 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:30:23 [router.go:829][D] | GET        | /                                        | 1.799104ms       | match      | /                                        | 
+2016/03/20 15:30:24 [router.go:829][D] | GET        | /test                                    | 557.206µs        | match      | /test                                    | 
+2016/03/20 15:30:24 [router.go:829][D] | GET        | /category                                | 630.691µs        | match      | /category                                | 
+2016/03/20 15:30:42 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:30:44 [router.go:829][D] | GET        | /                                        | 1.618294ms       | match      | /                                        | 
+2016/03/20 15:30:45 [router.go:829][D] | GET        | /test                                    | 384.007µs        | match      | /test                                    | 
+2016/03/20 15:30:45 [router.go:829][D] | GET        | /category                                | 334.65µs         | match      | /category                                | 
+2016/03/20 15:31:05 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:31:07 [router.go:829][D] | GET        | /                                        | 1.668904ms       | match      | /                                        | 
+2016/03/20 15:31:07 [router.go:829][D] | GET        | /test                                    | 503.547µs        | match      | /test                                    | 
+2016/03/20 15:31:07 [router.go:829][D] | GET        | /category                                | 517.491µs        | match      | /category                                | 
+2016/03/20 15:31:24 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:31:28 [router.go:829][D] | GET        | /                                        | 1.926641ms       | match      | /                                        | 
+2016/03/20 15:31:29 [router.go:829][D] | GET        | /test                                    | 420.339µs        | match      | /test                                    | 
+2016/03/20 15:31:29 [router.go:829][D] | GET        | /category                                | 338.023µs        | match      | /category                                | 
+2016/03/20 15:31:35 [router.go:829][D] | GET        | /test                                    | 302.457µs        | match      | /test                                    | 
+2016/03/20 15:31:36 [router.go:829][D] | GET        | /                                        | 1.399203ms       | match      | /                                        | 
+2016/03/20 15:31:37 [router.go:829][D] | GET        | /test                                    | 423.513µs        | match      | /test                                    | 
+2016/03/20 15:31:37 [router.go:829][D] | GET        | /category                                | 256.363µs        | match      | /category                                | 
+2016/03/20 15:32:00 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:32:10 [router.go:829][D] | GET        | /                                        | 1.836247ms       | match      | /                                        | 
+2016/03/20 15:32:11 [router.go:829][D] | GET        | /test                                    | 542.921µs        | match      | /test                                    | 
+2016/03/20 15:32:11 [router.go:829][D] | GET        | /category                                | 581.185µs        | match      | /category                                | 
+2016/03/20 15:32:13 [router.go:829][D] | GET        | /                                        | 1.070541ms       | match      | /                                        | 
+2016/03/20 15:32:13 [router.go:829][D] | GET        | /test                                    | 345.012µs        | match      | /test                                    | 
+2016/03/20 15:32:13 [router.go:829][D] | GET        | /category                                | 227.105µs        | match      | /category                                | 
+2016/03/20 15:32:28 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:32:30 [router.go:829][D] | GET        | /                                        | 1.808ms          | match      | /                                        | 
+2016/03/20 15:32:30 [router.go:829][D] | GET        | /category                                | 1.010513ms       | match      | /category                                | 
+2016/03/20 15:32:30 [router.go:829][D] | GET        | /test                                    | 2.625208ms       | match      | /test                                    | 
+2016/03/20 15:32:45 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:32:48 [router.go:829][D] | GET        | /                                        | 1.819089ms       | match      | /                                        | 
+2016/03/20 15:32:48 [router.go:829][D] | GET        | /test                                    | 470.519µs        | match      | /test                                    | 
+2016/03/20 15:32:48 [router.go:829][D] | GET        | /category                                | 431.001µs        | match      | /category                                | 
+2016/03/20 15:32:49 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:32:58 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:52:47 [router.go:829][D] | GET        | /                                        | 2.130125ms       | match      | /                                        | 
+2016/03/20 15:52:47 [router.go:829][D] | GET        | /category                                | 464.777µs        | match      | /category                                | 
+2016/03/20 15:52:47 [router.go:829][D] | GET        | /test                                    | 514.919µs        | match      | /test                                    | 
+2016/03/20 15:56:05 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 15:56:08 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 16:00:59 [router.go:829][D] | GET        | /                                        | 1.744189ms       | match      | /                                        | 
+2016/03/20 16:00:59 [router.go:829][D] | GET        | /test                                    | 455.575µs        | match      | /test                                    | 
+2016/03/20 16:00:59 [router.go:829][D] | GET        | /category                                | 627.533µs        | match      | /category                                | 
+2016/03/20 16:01:01 [router.go:829][D] | GET        | /test                                    | 348.74µs         | match      | /test                                    | 
+2016/03/20 16:01:01 [router.go:829][D] | GET        | /test                                    | 307.961µs        | match      | /test                                    | 
+2016/03/20 16:01:03 [router.go:829][D] | GET        | /test                                    | 336.034µs        | match      | /test                                    | 
+2016/03/20 16:01:03 [router.go:829][D] | GET        | /test                                    | 301.34µs         | match      | /test                                    | 
+2016/03/20 16:01:04 [router.go:829][D] | GET        | /test                                    | 343.084µs        | match      | /test                                    | 
+2016/03/20 16:01:04 [router.go:829][D] | GET        | /test                                    | 405.428µs        | match      | /test                                    | 
+2016/03/20 16:01:05 [router.go:829][D] | GET        | /                                        | 1.573614ms       | match      | /                                        | 
+2016/03/20 16:01:05 [router.go:829][D] | GET        | /test                                    | 361.917µs        | match      | /test                                    | 
+2016/03/20 16:01:05 [router.go:829][D] | GET        | /category                                | 243.038µs        | match      | /category                                | 
+2016/03/20 16:01:09 [router.go:829][D] | GET        | /test                                    | 317.903µs        | match      | /test                                    | 
+2016/03/20 16:01:22 [router.go:829][D] | GET        | /test                                    | 350.64µs         | match      | /test                                    | 
+2016/03/20 16:01:23 [router.go:829][D] | GET        | /test                                    | 303.659µs        | match      | /test                                    | 
+2016/03/20 16:01:24 [router.go:829][D] | GET        | /test                                    | 330.513µs        | match      | /test                                    | 
+2016/03/20 16:01:24 [router.go:829][D] | GET        | /test                                    | 322.302µs        | match      | /test                                    | 
+2016/03/20 16:01:25 [router.go:829][D] | GET        | /test                                    | 344.615µs        | match      | /test                                    | 
+2016/03/20 16:01:26 [router.go:829][D] | GET        | /                                        | 1.437578ms       | match      | /                                        | 
+2016/03/20 16:01:26 [router.go:829][D] | GET        | /category                                | 248.701µs        | match      | /category                                | 
+2016/03/20 16:01:26 [router.go:829][D] | GET        | /test                                    | 747.244µs        | match      | /test                                    | 
+2016/03/20 16:01:47 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 16:01:51 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 16:01:55 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 16:01:58 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 16:02:01 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 16:02:04 [asm_amd64.s:1721][I] http server Running on :8088
+2016/03/20 16:02:07 [asm_amd64.s:1721][I] http server Running on :8088

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="this is my blog">
+    <meta name="author" content="bibinbin">
+    <title>bingo_blog</title>
+    <style type="text/css">
+    body {
+        padding-top: 50px;
+    }
+    
+    .home-box .idebar-module-inset {
+        background: #FAFAFA;
+        padding: 0.2em 0 1em 2em;
+    }
+    
+    .media-object {
+        width: 75px;
+        height: 75px;
+    }
+    
+    #scrollUp {
+        background-image: url("/static/img/top.png");
+        bottom: 20px;
+        right: 20px;
+        width: 38px;
+        /* Width of image */
+        height: 38px;
+        /* Height of image */
+    }
+    </style>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/static/css/buttons.css">
+    <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="/static/js/chart.min.js"></script>
+    <script src="/static/js/jquery.scrollUp.min.js"></script>
+    <script src="/static/js/sprintf.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-globe " aria-hidden="true"></span>咸扯谈</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#go">GO</a></li>
+                    <li><a href="#linux">Linux</a></li>
+                    <li><a href="#php">PHP</a></li>
+                    <li><a href="#python">Python</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button class="button button-small button-glow button-rounded button-primary"><i class="fa fa-search"> </i>搜索</button>
+                </form>
+            </div>
+            <!-- /.nav-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- /.navbar -->
+    <div class="container">
+        <!-- /blog中间部分 -->
+        <div class="row home-box">
+            <!-- /blog文章列表 -->
+            <div class="col-md-8 col-lg-8">
+                <div class="row" id="contentx">
+                    <!-- /blog文章列表  一条blog-->
+                    <!-- /blog文章列表 一条blog 结束 -->
+                </div>
+                <div class="col-md-12">
+                    <nav>
+                        <ul class="pager">
+                            <li class="previous disabled" id="pagination_previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+                            <li class="next" id="pagination_next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /.左侧 -->
+            <div class="col-md-4 col-lg-4">
+                <div class="sidebar-module sidebar-module-inset">
+                    <h3 class="text-muted"><i class="fa fa-yelp text-success"></i> Social Links</h3>
+                    <a class="button button-jumbo button-primary button-box button-giant button-longshadow-right" href="http://github.com/bibinbin">
+                        <i class="fa fa-github fa-x"></i>
+                    </a>
+                    <a class="button button-jumbo button-caution button-box button-raised button-giant button-longshadow" href="mailto:18730590865@163.com?subject=The%20subject%20of%20the%20mail">
+                        <i class="fa fa-envelope fa-x"></i>
+                    </a>
+                    <a class="button button-jumbo button-action button-box button-giant button-longshadow-right button-longshadow-expand" >
+                        <i class="fa  fa-twitter fa-x"></i>
+                    </a>
+                    <a class="button button-jumbo button-highlight button-box button-giant button-longshadow-right button-longshadow-expand" href="http://weibo.com/tsbibin">
+                        <i class="fa fa-weibo fa-x"></i>
+                    </a>
+                    <a class="button button-jumbo button-primary button-box button-giant button-longshadow-right button-longshadow-expand" >
+                        <i class="fa  fa-weixin fa-x"></i>
+                    </a>
+                </div>
+                <div class="sidebar-module">
+                    <h3 class="text-muted"><i class="fa fa-pie-chart text-success"></i> Proportion of articles</h3>
+                    <canvas id="myChart" width="300" height="300" style="width: 250px; height: 250px;"></canvas>
+                </div>
+                <div class="sidebar-module">
+                    <h3 class="text-muted"><i class="fa fa-pie-chart text-success"> </i> About Me</h3>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object img-circle" src="/static/img/logo.jpg" alt="head">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <p class="text-left"><i class="fa fa-envelope-o"></i> 18730590865@163.com</p>
+                            <p class="text-left"><i class="fa fa-university"> </i> qihoo360</p>
+                            <p class="text-left"> <i class="fa fa-map-marker">&nbsp; </i> Bejing Chaoyang</p>
+                            <p class="text-left">
+                                生活赋予我们一种巨大的和无限高贵的礼品，这就是青春：充满着力量，充满着期待志愿，充满着求知和斗争的志向，充满着希望信心和青春。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-module">
+                    <h3 class="text-muted"><i class="fa fa-space-shuttle text-success"></i> Transfer matrix</h3>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#new" aria-controls="new" role="tab" data-toggle="tab"><i class="fa fa-file-text-o text-success"> </i> 最新文章</a></li>
+                        <li role="presentation"><a href="#hot" aria-controls="hot" role="tab" data-toggle="tab"><i class="fa fa-file-text-o text-success"> </i> 最热文章</a></li>
+                        <li role="presentation"><a href="#link" aria-controls="link" role="tab" data-toggle="tab"><i class="fa fa-send-o (alias) text-success"> </i> 友情链接</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="new">
+                            <ol class="list-unstyled">
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                            </ol>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="hot">
+                            <ol class="list-unstyled">
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                            </ol>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="link">
+                            <ol class="list-unstyled">
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-angle-double-right"> </i><a href="#"> March 2014  卡号的卡的</a></p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.blog-sidebar -->
+        </div>
+    </div>
+    </div>
+    <div></div>
+    <div class="container">
+        <footer class="footer">
+            <div class="row">
+                <div class="text-center col-sm-12 col-lg-12">
+                    <p>© 2015 BI BINBIN | This page was proudly built with <a href="http://www.bibinbin.net">BI BINBIN</a></p>
+                    <p>备案号:京ICP备15049970号</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/static/js/blog.js" ></script>
+</body>
+
+</html>
